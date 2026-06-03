@@ -6,6 +6,7 @@ from ..dataset.base import BaseDataset
 from ..dataset.genbank import GenBankDataset
 from ..dataset.antismash import AntiSMASHGenBankDataset, AntiSMASHZipDataset
 from ..dataset.defensefinder import DefenseFinderDataset
+from ..dataset.list import DatasetList
 
 
 class BaseInput:
